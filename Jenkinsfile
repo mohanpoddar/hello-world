@@ -1,9 +1,20 @@
 pipeline {
     agent any
+
     stages {
-        stage('Stage 01') {
+        stage('Build') {
             steps {
-                echo 'Hello world and welcome to DevOps automation world!'
+                echo 'Building..'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
             }
         }
     }
