@@ -9,12 +9,12 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing my first application server...'
+                echo 'Testing my first application server....'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying my first application server...'
+                echo 'Deploying my first application server....'
             }
         }
     }
