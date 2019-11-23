@@ -1,2 +1,2 @@
 # hello-world
-This for tutorial purpsoe.
+This for Jenkins tutorial purpose helloworld.
